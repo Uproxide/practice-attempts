@@ -1,0 +1,35 @@
+{
+	"geode": "3.0.0",
+	"gd": {
+		"win": "2.206",
+		"android": "2.206",
+		"mac": "2.206",
+		"ios": "2.206"
+	},
+	"id": "uproxide.practice_attempts",
+	"name": "Practice Attempts",
+	"version": "v1.0.0",
+	"developer": "Uproxide",
+	"tags": [
+		"interface", "gameplay"
+	],
+	"links": {
+		"community": "https://discord.gg/gy4BrxmWrF",
+		"homepage": "https://uproxide.xyz",
+		"source": "https://github.com/uproxide/practice-attempts"
+	},
+	"description": "Shows how many attempts it took in practice mode in the end screen :3",
+	"settings": {
+		"replace-attempt-count": {
+			"name": "Replace Attempt Count",
+			"description": "Replaces the Total Attempt Count with Practice Attempt Count",
+			"type": "bool",
+			"default": true
+		}
+	},
+	"resources": {
+		"files": [
+			"replaceattemptcount.png"
+		]
+	}
+}
