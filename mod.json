@@ -1,9 +1,9 @@
 {
-	"geode": "3.0.0",
+	"geode": "4.0.0-alpha.1",
 	"gd": {
-		"win": "2.206",
-		"android": "2.206",
-		"mac": "2.206",
+		"win": "2.2074",
+		"android": "2.2074",
+		"mac": "2.2074",
 		"ios": "2.206"
 	},
 	"id": "uproxide.practice_attempts",
@@ -11,7 +11,7 @@
 	"version": "v1.0.0",
 	"developer": "Uproxide",
 	"tags": [
-		"interface", "gameplay"
+		"interface", "offline"
 	],
 	"links": {
 		"community": "https://discord.gg/gy4BrxmWrF",
@@ -27,6 +27,13 @@
 			"default": true
 		}
 	},
+	"dependencies": [
+		{
+			"id": "geode.node-ids",
+			"importance": "required",
+			"version": ">=1.16.0"
+		}
+	],
 	"resources": {
 		"files": [
 			"replaceattemptcount.png"
