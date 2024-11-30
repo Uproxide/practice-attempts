@@ -6,6 +6,7 @@ using namespace geode::prelude;
 #include <Geode/modify/PlayLayer.hpp>
 
 bool isPractice;
+bool isPlatformer;
 int attemptCount;
 int practiceAttemptCount;
 
@@ -20,7 +21,7 @@ class $modify(EndLevelLayer) {
 			practiceAttemptsLabel->removeFromParent();
 		}
 
-		if (isPractice) {
+		if (isPractice && !isPlatformer) {
 			if (Mod::get()->getSettingValue<bool>("replace-attempt-count")) {
 				attemptLabel->setString(attemptMessage.c_str());
 			} else {
@@ -52,6 +53,12 @@ class $modify(PlayLayer) {
 		if (!PlayLayer::init(p0, p1, p2)) return false;
 
 		isPractice = m_isPracticeMode;
+		if (p0->m_levelLength == 5) {
+			isPlatformer = true;
+		} else {
+			isPlatformer = false;
+		}
+
 		attemptCount = 1;
 		practiceAttemptCount = 1;
 
