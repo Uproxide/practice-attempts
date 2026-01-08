@@ -1,5 +1,5 @@
 {
-	"geode": "4.3.1",
+	"geode": "4.10.0",
 	"gd": {
 		"win": "2.2074",
 		"android": "2.2074",
@@ -8,7 +8,7 @@
 	},
 	"id": "uproxide.practice_attempts",
 	"name": "Practice Attempts",
-	"version": "v1.0.4",
+	"version": "v1.0.5",
 	"developer": "Uproxide",
 	"tags": [
 		"interface", "offline"

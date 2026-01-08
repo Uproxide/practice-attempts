@@ -1,3 +1,6 @@
+# 1.0.5
+ * JIT-Less support for iOS
+
 # 1.0.3
  * Fix Practice Mode Crash
 
